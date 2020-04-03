@@ -5,7 +5,7 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://github.com/Archaeologist03/expressing-space-api/blob/master/CODE_OF_CONDUCT.md" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-https://github.com/Archaeologist03/expressing--space--api/blob/master/CODE__OF__CONDUCT.md-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
 
