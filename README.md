@@ -37,9 +37,9 @@ npm test
 
 👤 **Ilija**
 
-- Website: Ilija03.tk
+- Website: https://ilija03.tk/
 - Github: [@Archaeologist03](https://github.com/Archaeologist03)
-- LinkedIn: [@https:\/\/www.linkedin.com\/in\/ilija-savic-03\/](https://linkedin.com/in/https://www.linkedin.com/in/ilija-savic-03/)
+- LinkedIn: [Ilija's Linkedin](https://www.linkedin.com/in/ilija-savic-03/)
 
 ## 🤝 Contributing
 
