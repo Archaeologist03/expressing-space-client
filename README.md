@@ -9,7 +9,9 @@
   </a>
 </p>
 
-> Client for Expressing Space app. React/SCSS/CircleCI/Styled Components/Jest
+> Client for Expressing Space app. React / SCSS / Styled Components / Jest / CircleCI  
+
+> Back-End repo: https://github.com/Archaeologist03/expressing-space-api  
 
 ### 🏠 [Homepage](/)
 
