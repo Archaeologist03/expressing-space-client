@@ -1,20 +1,19 @@
+// =========== REACT IMPORTS ===============
+import './App.module.scss';
 import React from 'react';
-import styled from 'styled-components';
 
+// =========== STYLES IMPORTS ==============
 import './App.module.scss';
 
-function App() {
+// =========== COMPONENT IMPORTS ===========
+import Logo from './components/Logo/Logo';
+
+const App = () => {
   return (
     <div className='App'>
-      <Title>Hello there!</Title>
+      <Logo />
     </div>
   );
-}
-
-const Title = styled.h1`
-  font-size: 3.5rem;
-  text-align: center;
-  color: palevioletred;
-`;
+};
 
 export default App;
