@@ -2,16 +2,22 @@
 
 html,
 body {
-	font-family: $font-family;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	box-sizing: border-box;
-	font-size: 62.5%;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
-	margin: 0;
+  box-sizing: inherit;
+  margin: 0;
+}
+
+a:hover,
+i:hover {
+  cursor: pointer;
+  // cursor: url('../static//assets//images/cursor-hand.png'), default;
 }
