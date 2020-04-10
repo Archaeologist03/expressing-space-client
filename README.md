@@ -41,7 +41,7 @@ npm test
 
 - Website: https://ilija03.tk/
 - Github: [@Archaeologist03](https://github.com/Archaeologist03)
-- LinkedIn: [Ilija's Linkedin](https://www.linkedin.com/in/ilija-savic-03/)
+- LinkedIn: [linkedin.com/in/ilija](https://www.linkedin.com/in/ilija-savic-03/)
 
 ## 🤝 Contributing
 
