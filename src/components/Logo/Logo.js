@@ -29,7 +29,7 @@ const LogoImage = styled.picture`
 
     &:hover {
       transform: rotateZ(-360deg) scale(1);
-      background-color: rgba(255, 0, 191, 0.15);
+      background-color: rgba(255, 111, 33, 0.05);
       border-radius: 33%;
     }
   }

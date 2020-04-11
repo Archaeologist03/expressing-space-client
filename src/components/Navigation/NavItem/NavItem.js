@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
+import { mainText, hoverText } from '../../../styles/-variables';
+
 // STYLING
 const activeClassName = 'nav-item-active';
 const StyledLink = styled(NavLink).attrs({ activeClassName })`
@@ -12,14 +14,18 @@ const StyledLink = styled(NavLink).attrs({ activeClassName })`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(205, 20, 27);
-
-  transition: border 1s;
+  color: ${mainText};
+  transition: border 1s, color 0.5s;
 
   &.${activeClassName} {
-    border: 2px solid rgba(105, 20, 27, 0.05);
-    box-shadow: 2px 2px 4px gba(105, 20, 27, 0.1);
-    color: black;
+    border: 2px solid rgba(105, 20, 27, 0.02);
+    border-radius: 3%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 9, 0.3);
+    color: rgb(211, 169, 33);
+  }
+
+  &:hover {
+    color: ${hoverText};
   }
 `;
 

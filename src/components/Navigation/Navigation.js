@@ -11,6 +11,8 @@ const StyledNav = styled.nav`
   top: 0;
   font-size: 30px;
   display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
 `;
 
 // COMPONENT LOGIC
