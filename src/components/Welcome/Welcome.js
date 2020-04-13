@@ -1,11 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {
-  whiteText,
-  elementsBackgroundRed,
-  mainText,
-} from '../../styles/-variables';
+import { whiteText, elementsBackgroundRed } from '../../styles/-variables';
 
 const WelcomeContainer = styled.div`
   border-radius: 3%;
