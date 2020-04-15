@@ -3,5 +3,10 @@ import { shallow } from 'enzyme';
 import Navigation from './Navigation';
 
 it('renders without crashing', () => {
-  shallow(<Navigation />);
+  const navsData = [
+    { linkTo: '/profile', name: 'Profile' },
+    { linkTo: '/logout', name: 'Logout' },
+  ];
+
+  shallow(<Navigation navsData={navsData} />);
 });

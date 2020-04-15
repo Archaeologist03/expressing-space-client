@@ -6,9 +6,6 @@ import NavItem from './NavItem/NavItem';
 // STYLING
 const StyledNav = styled.nav`
   height: 8vh;
-  position: fixed;
-  right: 0;
-  top: 0;
   font-size: 30px;
   display: flex;
   justify-content: flex-end;
@@ -20,7 +17,11 @@ const Navigation = ({ navsData }) => {
   return (
     <StyledNav>
       {navsData.map((navData) => {
-        return <NavItem linkTo={navData.linkTo}>{navData.name}</NavItem>;
+        return (
+          <NavItem key={navData.name} linkTo={navData.linkTo}>
+            {navData.name}
+          </NavItem>
+        );
       })}
     </StyledNav>
   );
