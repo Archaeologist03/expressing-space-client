@@ -6,9 +6,8 @@ import { whiteText, elementsBackgroundRed } from '../../styles/-variables';
 const WelcomeContainer = styled.div`
   border-radius: 3%;
   box-shadow: 2px 2px 16px ${elementsBackgroundRed};
-  width: 40%;
-  height: 25vh;
-  margin-bottom: 10%;
+  min-width: 40%;
+  min-height: 25vh;
   background-color: ${elementsBackgroundRed};
   color: ${whiteText};
   display: flex;
