@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Welcome from '../../components/Welcome/Welcome';
+import Navigation from '../../components/Navigation/Navigation';
 import { mainText } from '../../styles/-variables';
 
 const LandingContainer = styled.div`
@@ -26,9 +27,16 @@ const TryTextContainer = styled.div`
 `;
 
 const Landing = () => {
+  const navsData = [
+    { linkTo: '/login', name: 'Log In' },
+    { linkTo: '/register', name: 'Register' },
+    { linkTo: '/tryout', name: 'Tryout' },
+  ];
+
   return (
     <LandingContainer>
       <TextsContainer>
+        <Navigation navsData={navsData} />
         <Welcome />
         <TryTextContainer>
           <p>Try ES, no account required! </p>

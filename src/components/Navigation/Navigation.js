@@ -16,12 +16,12 @@ const StyledNav = styled.nav`
 `;
 
 // COMPONENT LOGIC
-const Navigation = () => {
+const Navigation = ({ navsData }) => {
   return (
     <StyledNav>
-      <NavItem linkTo='/login'>Log in</NavItem>
-      <NavItem linkTo='/register'>Register</NavItem>
-      <NavItem linkTo='/tryout'>Tryout</NavItem>
+      {navsData.map((navData) => {
+        return <NavItem linkTo={navData.linkTo}>{navData.name}</NavItem>;
+      })}
     </StyledNav>
   );
 };

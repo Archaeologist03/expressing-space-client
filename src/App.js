@@ -7,6 +7,7 @@ import './App.module.scss';
 
 // =========== PAGES IMPORTS ===============
 import Landing from './pages/Landing/Landing';
+import Profile from './pages/Profile/Profile';
 
 // =========== COMPONENT IMPORTS ===========
 import Logo from './components/Logo/Logo';
@@ -17,8 +18,9 @@ const App = () => {
     <Router>
       <div className='App'>
         <Logo />
-        <Navigation />
+        {/* <Navigation /> */}
         <Landing />
+        <Profile />
       </div>
     </Router>
   );
