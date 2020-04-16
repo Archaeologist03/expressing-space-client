@@ -1,0 +1,13 @@
+MESSAGES:
+
+- Deciding on "Favorites", if it should be accessed thru messages or with own nav.
+For now it is thru messages. 
+To access specific user you need to converse with them(to have them in messages), and from there you can click on their profile and see their profile(info).  
+
+
+
+USERS:
+
+
+
+YOUR PROFILE:

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { whiteText, elementsBackgroundRed } from '../../styles/-variables';
 
 const WelcomeContainer = styled.section`
-  border-radius: 3%;
+  border-radius: 24px;
   box-shadow: 2px 2px 16px ${elementsBackgroundRed};
   min-width: 40%;
   min-height: 25vh;

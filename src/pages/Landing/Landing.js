@@ -14,12 +14,6 @@ const LandingContainer = styled.div`
   align-items: center;
 `;
 
-const NavContainer = styled.div`
-  position: fixed;
-  top: 0;
-  right: 5%;
-`;
-
 const TextsContainer = styled.div``;
 
 const TryTextContainer = styled.div`
@@ -33,17 +27,9 @@ const TryTextContainer = styled.div`
 `;
 
 const Landing = () => {
-  const navsData = [
-    { linkTo: '/login', name: 'Log In' },
-    { linkTo: '/register', name: 'Register' },
-    { linkTo: '/tryout', name: 'Tryout' },
-  ];
-
   return (
     <LandingContainer>
-      <NavContainer>
-        <Navigation navsData={navsData} />
-      </NavContainer>
+      <Navigation />
       <TextsContainer>
         <Welcome />
         <TryTextContainer>

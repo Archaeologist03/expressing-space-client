@@ -13,6 +13,7 @@ const activeClassName = 'nav-item-active';
 const StyledLink = styled(NavLink).attrs({ activeClassName })`
   border: 2px solid transparent;
   border-radius: 24px;
+  min-width: 5rem;
   padding: 0 3rem;
   text-decoration: none;
   display: inline-block;

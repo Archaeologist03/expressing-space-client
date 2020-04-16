@@ -15,7 +15,7 @@ const Logo = () => {
 
 const LogoContainer = styled.div`
   display: inline-block;
-  position: absolute;
+  position: fixed;
   left: 1%;
   top: 2%;
 `;

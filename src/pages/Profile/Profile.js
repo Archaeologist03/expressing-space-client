@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Navigation from '../../components/Navigation/Navigation';
+import Likes from '../../components/Likes/Likes';
 
 const ProfileContainer = styled.div`
-  border: 2px solid yellow;
   min-height: 100vh;
   min-width: 100vw;
 `;
@@ -19,6 +19,10 @@ const ProfileNavContainer = styled.div`
   position: fixed;
   top: 0;
   left: 8%;
+`;
+
+const LikesContainer = styled.section`
+  border: 2px solid purple;
 `;
 
 const Profile = () => {
@@ -39,6 +43,9 @@ const Profile = () => {
       <NavContainer>
         <Navigation navsData={navsData} />
       </NavContainer>
+      <LikesContainer>
+        <Likes />
+      </LikesContainer>
     </ProfileContainer>
   );
 };
