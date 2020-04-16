@@ -6,10 +6,8 @@ import NavItem from './NavItem/NavItem';
 // STYLING
 const StyledNav = styled.nav`
   height: 8vh;
-  font-size: 30px;
+  font-size: 2.8rem;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 5rem;
 `;
 
 // COMPONENT LOGIC

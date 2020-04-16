@@ -14,6 +14,12 @@ const LandingContainer = styled.div`
   align-items: center;
 `;
 
+const NavContainer = styled.div`
+  position: fixed;
+  top: 0;
+  right: 5%;
+`;
+
 const TextsContainer = styled.div``;
 
 const TryTextContainer = styled.div`
@@ -35,8 +41,10 @@ const Landing = () => {
 
   return (
     <LandingContainer>
-      <TextsContainer>
+      <NavContainer>
         <Navigation navsData={navsData} />
+      </NavContainer>
+      <TextsContainer>
         <Welcome />
         <TryTextContainer>
           <p>Try ES, no account required! </p>
