@@ -2,9 +2,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-// =========== STYLES IMPORTS ==============
-import './App.module.scss';
-
 // =========== PAGES IMPORTS ===============
 // import Landing from './pages/Landing/Landing';
 import Profile from './pages/Profile/Profile';

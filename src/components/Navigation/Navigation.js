@@ -1,26 +1,12 @@
 import React, { Fragment } from 'react';
-import styled from 'styled-components';
 
 import NavItem from './NavItem/NavItem';
 
-// STYLING
-const StyledNav = styled.nav`
-  height: 8vh;
-  font-size: 2.8rem;
-  display: flex;
-`;
-
-const RegularNavContainer = styled.div`
-  position: fixed;
-  top: 0;
-  right: 5%;
-`;
-
-const AuthProfileNavContainer = styled.div`
-  position: fixed;
-  top: 0;
-  left: 8%;
-`;
+import {
+  RegularNavContainer,
+  StyledNav,
+  AuthProfileNavContainer,
+} from './navigation.styles';
 
 // COMPONENT LOGIC
 const Navigation = () => {
