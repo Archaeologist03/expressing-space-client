@@ -3,16 +3,6 @@ import styled from 'styled-components';
 
 import logoImg from '../../assets/images/galaxy-logo.svg';
 
-const Logo = () => {
-  return (
-    <LogoContainer>
-      <LogoImage>
-        <img className='image img-image' src={logoImg} alt='Galaxy logo' />
-      </LogoImage>
-    </LogoContainer>
-  );
-};
-
 const LogoContainer = styled.div`
   display: inline-block;
   position: fixed;
@@ -34,5 +24,15 @@ const LogoImage = styled.picture`
     }
   }
 `;
+
+const Logo = () => {
+  return (
+    <LogoContainer>
+      <LogoImage>
+        <img className='image img-image' src={logoImg} alt='Galaxy logo' />
+      </LogoImage>
+    </LogoContainer>
+  );
+};
 
 export default Logo;
