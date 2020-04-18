@@ -8,12 +8,14 @@ import Profile from './pages/Profile/Profile';
 
 // =========== COMPONENT IMPORTS ===========
 import Logo from './components/Logo/Logo';
+import Navigation from './components/Navigation/Navigation';
 
 const App = () => {
   return (
     <Router>
       <div className='App'>
         <Logo />
+        <Navigation />
         {/* <Landing /> */}
         <Profile />
       </div>

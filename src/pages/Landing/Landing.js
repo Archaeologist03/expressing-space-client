@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Welcome from '../../components/Welcome/Welcome';
-import Navigation from '../../components/Navigation/Navigation';
 
 import {
   LandingContainer,
@@ -12,7 +11,6 @@ import {
 const Landing = () => {
   return (
     <LandingContainer>
-      <Navigation />
       <TextsContainer>
         <Welcome />
         <TryTextContainer>

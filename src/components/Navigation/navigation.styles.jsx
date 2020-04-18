@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const NavigationContainer = styled.nav`
-  border-bottom: 2px solid green;
   border-radius: 4px;
   min-height: 10vh;
   display: flex;
@@ -10,6 +9,7 @@ export const NavigationContainer = styled.nav`
   top: 0;
   right: 0;
   width: 90%;
+  z-index: 5;
 `;
 
 export const AuthProfileNavContainer = styled.div`

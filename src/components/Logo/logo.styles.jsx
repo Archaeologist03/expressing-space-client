@@ -5,6 +5,7 @@ export const LogoContainer = styled.div`
   position: fixed;
   left: 1%;
   top: 2%;
+  z-index: 5;
 `;
 
 export const LogoImage = styled.picture`
