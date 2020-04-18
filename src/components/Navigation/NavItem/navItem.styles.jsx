@@ -10,6 +10,7 @@ import {
 const activeClassName = 'nav-item-active';
 
 export const StyledLink = styled(NavLink).attrs({ activeClassName })`
+  min-height: 8vh;
   border: 2px solid transparent;
   border-radius: 24px;
   min-width: 5rem;

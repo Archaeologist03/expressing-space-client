@@ -1,19 +1,33 @@
 import styled from 'styled-components';
 
-export const StyledNav = styled.nav`
-  height: 8vh;
-  font-size: 2.8rem;
+export const NavigationContainer = styled.nav`
+  border-bottom: 2px solid green;
+  border-radius: 4px;
+  min-height: 10vh;
   display: flex;
-`;
-
-export const RegularNavContainer = styled.div`
+  align-items: center;
   position: fixed;
   top: 0;
-  right: 5%;
+  right: 0;
+  width: 90%;
 `;
 
 export const AuthProfileNavContainer = styled.div`
-  position: fixed;
-  top: 0;
+  display: inline-block;
+  position: relative;
   left: 8%;
+`;
+
+export const RegularNavContainer = styled.div`
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+`;
+
+export const StyledNav = styled.nav`
+  min-height: 8vh;
+  font-size: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

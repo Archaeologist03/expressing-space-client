@@ -9,9 +9,9 @@ const Profile = () => {
   return (
     <ProfileContainer>
       <Navigation />
-      <LikesContainer>
-        <Likes />
-      </LikesContainer>
+      {/* <LikesContainer> */}
+      <Likes />
+      {/* </LikesContainer> */}
     </ProfileContainer>
   );
 };
