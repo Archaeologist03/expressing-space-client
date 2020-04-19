@@ -7,3 +7,5 @@ export const blackText = '#000000';
 export const hoverText = 'rgb(196, 189, 189);';
 
 export const borderRadius = '24px';
+
+export const smallTextFont = '1.5rem';

@@ -11,3 +11,9 @@ USERS:
 
 
 YOUR PROFILE:
+
+- Likes: Open 50vh-50vw modal on each like.
+
+- Personal Info: Open 50vh-50vw modal on each field.
+
+

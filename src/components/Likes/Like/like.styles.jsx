@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-import { blackText } from '../../../styles/-variables';
+import { blackText, smallTextFont } from '../../../styles/-variables';
 
 export const LikeContainer = styled.div`
-  border: 2px solid green;
   color: ${blackText};
   display: inline-block;
 `;
@@ -21,7 +20,7 @@ export const LikeList = styled.ul`
 `;
 
 export const LikeItem = styled.li`
-  font-size: 1.5rem;
+  font-size: ${smallTextFont};
   display: inline-block;
   margin-right: 2px;
 `;

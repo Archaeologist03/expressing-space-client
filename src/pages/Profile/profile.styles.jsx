@@ -6,10 +6,13 @@ export const ProfileContainer = styled.div`
   top: 20%;
 `;
 
-export const LikesContainer = styled.section`
+export const BoxesContainer = styled.section`
   border: 2px solid purple;
   display: flex;
-  height: 1100px;
   align-items: flex-start;
   justify-content: space-evenly;
+`;
+
+export const BoxContainer = styled.section`
+  min-height: 45vh;
 `;

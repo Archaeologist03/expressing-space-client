@@ -1,11 +1,15 @@
 import styled from 'styled-components';
 
-import { whiteText, elementsBackgroundRed } from '../../styles/-variables';
+import {
+  whiteText,
+  elementsBackgroundRed,
+  smallTextFont,
+  borderRadius,
+} from '../../styles/-variables';
 
 export const PersonalInfoContainer = styled.section`
-  border: 2px solid yellow;
   min-height: 30vh;
-  width: 20vw;
+  width: 15vw;
 `;
 
 export const PersonalInfoTitle = styled.h3`
@@ -13,11 +17,29 @@ export const PersonalInfoTitle = styled.h3`
   font-weight: 400;
   color: ${whiteText};
   text-align: center;
+  margin-bottom: ${smallTextFont};
 `;
 
 export const PersonalInfoBox = styled.div`
-  border-radius: 24px;
-  min-height: 25vh;
+  min-height: 45vh;
+  border-radius: ${borderRadius};
   background-color: ${elementsBackgroundRed};
   overflow: hidden;
+  padding-top: 30px;
+`;
+
+export const FieldContainer = styled.div`
+  margin: 20px 10px 10px 30px;
+`;
+
+export const FieldLabel = styled.label`
+  font-size: 1.8rem;
+  margin-right: 2px;
+`;
+
+export const Field = styled.input`
+  font-size: ${smallTextFont};
+  width: 50%;
+  background-color: transparent;
+  border: none;
 `;
