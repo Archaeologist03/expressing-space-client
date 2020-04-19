@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Likes from '../../components/Likes/Likes';
+import PersonalInfo from '../../components/PersonalInfo/PersonalInfo';
 
 import { ProfileContainer, LikesContainer } from './profile.styles';
 
@@ -10,7 +11,7 @@ const Profile = () => {
       <LikesContainer>
         <Likes />
         <Likes />
-        <Likes />
+        <PersonalInfo />
       </LikesContainer>
     </ProfileContainer>
   );
