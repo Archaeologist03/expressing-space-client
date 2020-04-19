@@ -19,6 +19,12 @@ const Likes = () => {
       { id: 5, name: '1984', author: 'George Orwell' },
     ],
     movies: [{ id: 1, name: 'Fight Club', director: 'David Fincher' }],
+    tvShows: [{ id: 1, name: 'Mr.Robot', director: 'Sam Esmail' }],
+    artists: [{ id: 1, name: 'Salvador Dali' }],
+    music: [
+      { id: 1, name: 'Let it Happen', artist: 'Tame Impala' },
+      { id: 2, name: 'Joey Badass' },
+    ],
   };
 
   return (
@@ -31,6 +37,15 @@ const Likes = () => {
         </LikeContainer>
         <LikeContainer>
           <Like likeTitle='Movies' likeData={likesData.movies} />
+        </LikeContainer>
+        <LikeContainer>
+          <Like likeTitle='Tv-Shows' likeData={likesData.tvShows} />
+        </LikeContainer>{' '}
+        <LikeContainer>
+          <Like likeTitle='Artists' likeData={likesData.artists} />
+        </LikeContainer>{' '}
+        <LikeContainer>
+          <Like likeTitle='Music' likeData={likesData.music} />
         </LikeContainer>
       </LikesBox>
     </LikesContainer>

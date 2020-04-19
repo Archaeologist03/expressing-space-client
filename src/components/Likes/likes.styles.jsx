@@ -9,7 +9,8 @@ export const LikesContainer = styled.section`
 `;
 
 export const LikesTitle = styled.h3`
-  font-size: 2.7rem;
+  font-size: 2.3rem;
+  font-weight: 400;
   color: ${whiteText};
   text-align: center;
 `;

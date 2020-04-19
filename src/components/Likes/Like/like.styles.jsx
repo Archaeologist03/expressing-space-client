@@ -10,6 +10,7 @@ export const LikeContainer = styled.div`
 
 export const LikeTitle = styled.h5`
   font-size: 1.8rem;
+  font-weight: 400;
   display: inline-block;
   margin-right: 6px;
 `;

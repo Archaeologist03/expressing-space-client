@@ -3,8 +3,6 @@ import { LikeContainer } from './like.styles';
 import { LikeTitle, LikeList, LikeItem } from './like.styles';
 
 const Like = ({ likeTitle, likeData }) => {
-  console.log(likeTitle, likeData, 2323);
-
   return (
     <LikeContainer>
       <LikeTitle>{likeTitle}:</LikeTitle>
