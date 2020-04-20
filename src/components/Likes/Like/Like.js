@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import { LikeContainer } from './like.styles';
 import { LikeTitle, LikeList, LikeItem } from './like.styles';
 
@@ -15,6 +17,11 @@ const Like = ({ likeTitle, likeData }) => {
       </LikeList>
     </LikeContainer>
   );
+};
+
+Like.propTypes = {
+  likeTitle: PropTypes.string.isRequired,
+  likeData: PropTypes.array,
 };
 
 export default Like;
