@@ -8,6 +8,7 @@ import {
   SummaryTitle,
   SummaryBox,
   ImageContainer,
+  FieldContainer,
 } from './summary.styles';
 
 const Summary = () => {
@@ -24,9 +25,15 @@ const Summary = () => {
         <ImageContainer>
           <img src={profilePicture} alt='profile' />
         </ImageContainer>
-        <Field fieldTitle={fieldTitle} fieldText={fieldText} />
-        <Field fieldTitle={fieldTitle} fieldText={fieldText} />
-        <Field fieldTitle={fieldTitle} fieldText={fieldText} />
+        <FieldContainer>
+          <Field fieldTitle={fieldTitle} fieldText={fieldText} />
+        </FieldContainer>
+        <FieldContainer>
+          <Field fieldTitle={fieldTitle} fieldText={fieldText} />
+        </FieldContainer>{' '}
+        <FieldContainer>
+          <Field fieldTitle={fieldTitle} fieldText={fieldText} />
+        </FieldContainer>
       </SummaryBox>
     </SummaryContainer>
   );

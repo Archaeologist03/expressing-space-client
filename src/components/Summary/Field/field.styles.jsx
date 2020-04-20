@@ -1,19 +1,10 @@
 import styled from 'styled-components';
 
-import { smallTextFont, borderRadius } from '../../../styles/-variables';
+import { smallTextFont } from '../../../styles/-variables';
 
 export const FieldContainer = styled.div`
   display: inline-block;
-  border: 1px solid #21111130;
-  box-shadow: 2px 4px 12px #21111140;
-  border-radius: ${borderRadius};
-  overflow: hidden;
-  position: relative;
-  left: 5%;
-  margin: 2rem 0;
-  padding: 10px;
-  min-width: 40%;
-  max-width: 90%;
+  padding: 15px;
 
   h5 {
     font-size: 1.8rem;

@@ -48,3 +48,16 @@ export const ImageContainer = styled.div`
     transform: translate(-50%, -50%);
   }
 `;
+
+export const FieldContainer = styled.div`
+  border: 1px solid #21111130;
+  box-shadow: 2px 4px 12px #21111140;
+  border-radius: ${borderRadius};
+  overflow: hidden;
+  position: relative;
+  left: 5%;
+  margin: 2rem 0;
+  margin-bottom: 4rem;
+  min-width: 40%;
+  max-width: 90%;
+`;
