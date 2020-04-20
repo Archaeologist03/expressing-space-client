@@ -7,7 +7,6 @@ export const ProfileContainer = styled.div`
 `;
 
 export const BoxesContainer = styled.section`
-  border: 2px solid purple;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
