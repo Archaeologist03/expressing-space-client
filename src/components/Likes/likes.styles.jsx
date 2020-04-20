@@ -29,5 +29,5 @@ export const LikesBox = styled.div`
 `;
 
 export const LikeContainer = styled.div`
-  margin: 20px 10px 10px 30px;
+  margin: 2rem 10px 10px 30px;
 `;

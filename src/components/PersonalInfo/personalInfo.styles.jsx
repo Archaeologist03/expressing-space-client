@@ -29,7 +29,7 @@ export const PersonalInfoBox = styled.div`
 `;
 
 export const FieldContainer = styled.div`
-  margin: 20px 10px 10px 30px;
+  margin: 2rem 10px 10px 30px;
 `;
 
 export const FieldLabel = styled.label`

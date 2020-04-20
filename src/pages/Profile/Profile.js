@@ -2,6 +2,7 @@ import React from 'react';
 
 import Likes from '../../components/Likes/Likes';
 import PersonalInfo from '../../components/PersonalInfo/PersonalInfo';
+import Summary from '../../components/Summary/Summary';
 
 import {
   ProfileContainer,
@@ -17,7 +18,7 @@ const Profile = () => {
           <Likes />
         </BoxContainer>
         <BoxContainer>
-          <Likes />
+          <Summary />
         </BoxContainer>
         <BoxContainer>
           <PersonalInfo />

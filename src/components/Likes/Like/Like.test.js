@@ -12,5 +12,5 @@ it('renders without crashing', () => {
     { id: 5, name: '1984', author: 'George Orwell' },
   ];
 
-  shallow(<Like likeData={likeData}>{likeTitle}</Like>);
+  shallow(<Like likeData={likeData} likeTitle={likeTitle}></Like>);
 });

@@ -10,7 +10,7 @@ export const BoxesContainer = styled.section`
   border: 2px solid purple;
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
 `;
 
 export const BoxContainer = styled.section`

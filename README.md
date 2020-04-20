@@ -9,13 +9,13 @@
   </a>
 </p>
 
-> Client for Expressing Space app. React / SCSS / Styled Components / Jest / CircleCI  
+> Client for Expressing Space app. React / SCSS / Styled Components / Jest / CircleCI
 
-> Back-End repo: https://github.com/Archaeologist03/expressing-space-api  
+> Back-End repo: https://github.com/Archaeologist03/expressing-space-api
 
 ### 🏠 [Homepage](/)
 
-### ✨ [Demo](/)
+### ✨ [Demo](https://expressing-space.netlify.app/)
 
 ## Install
 
