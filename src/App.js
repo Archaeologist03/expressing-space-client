@@ -4,7 +4,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 // =========== PAGES IMPORTS ===============
 // import Landing from './pages/Landing/Landing';
-import Profile from './pages/Profile/Profile';
+// import Profile from './pages/Profile/Profile';
+import Users from './pages/Users/Users';
 
 // =========== COMPONENT IMPORTS ===========
 import Logo from './components/Logo/Logo';
@@ -17,7 +18,8 @@ const App = () => {
         <Logo />
         <Navigation />
         {/* <Landing /> */}
-        <Profile />
+        {/* <Profile /> */}
+        <Users />
       </div>
     </Router>
   );

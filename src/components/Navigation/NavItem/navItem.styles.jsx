@@ -16,7 +16,6 @@ export const StyledLink = styled(NavLink).attrs({ activeClassName })`
   min-width: 5rem;
   padding: 0 3rem;
   text-decoration: none;
-  display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
