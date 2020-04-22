@@ -13,7 +13,7 @@
 
 > Back-End repo: https://github.com/Archaeologist03/expressing-space-api
 
-### 🏠 [Homepage](/)
+### 🏠 [Homepage](https://expressing-space.netlify.app/)
 
 ### ✨ [Demo](https://expressing-space.netlify.app/)
 
