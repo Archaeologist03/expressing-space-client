@@ -3,21 +3,21 @@ import styled from 'styled-components';
 import { borderRadius } from '../../styles/-variables';
 
 export const UsersPageContainer = styled.div`
+  min-height: 100vh;
   min-width: 100vw;
-  position: absolute;
-  top: 20%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-content: flex-start;
-
-  /* border: 1px solid yellow; */
 `;
 
 export const UsersContainer = styled.section`
-  background-color: rgba(13, 13, 33, 0.95);
-  width: 90%;
+  max-width: 90%;
   min-height: 50vh;
+  background-color: rgba(13, 13, 33, 0.97);
   border-radius: ${borderRadius};
+  position: absolute;
+  top: 20%;
   display: flex;
   flex-wrap: wrap;
 `;
