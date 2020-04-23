@@ -5,7 +5,7 @@ export const NavigationContainer = styled.nav`
   min-height: 10vh;
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 90%;
@@ -25,7 +25,7 @@ export const RegularNavContainer = styled.div`
 `;
 
 export const StyledNav = styled.nav`
-  min-height: 8vh;
+  min-height: 10vh;
   font-size: 2.8rem;
   display: flex;
   justify-content: center;

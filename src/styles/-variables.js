@@ -8,5 +8,6 @@ export const hoverText = 'rgb(196, 189, 189);';
 
 export const borderRadius = '20px';
 export const imageBorder = '1px solid #21111130';
+export const hrBorder = '1px solid #ffffff20';
 
 export const smallTextFont = '1.5rem';

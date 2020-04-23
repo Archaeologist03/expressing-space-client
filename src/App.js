@@ -3,8 +3,7 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // =========== COMPONENT IMPORTS ===========
-import Logo from './components/Logo/Logo';
-import Navigation from './components/Navigation/Navigation';
+import Header from './components/Header/Header';
 import Spinner from './components/Spinner/Spinner';
 
 // =========== PAGES IMPORTS ===============
@@ -16,8 +15,7 @@ const App = () => {
   return (
     <Router>
       <div className='App'>
-        <Logo />
-        <Navigation />
+        <Header />
 
         <Suspense fallback={<Spinner />}>
           <Switch>

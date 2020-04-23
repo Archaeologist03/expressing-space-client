@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { smallTextFont } from '../../../styles/-variables';
+import { smallTextFont, hrBorder } from '../../../styles/-variables';
 
 export const FieldContainer = styled.div`
   display: inline-block;
@@ -15,7 +15,7 @@ export const FieldContainer = styled.div`
 
   hr {
     border: 0;
-    border-top: 1px solid #ffffff20;
+    border-top: ${hrBorder};
   }
 
   p {

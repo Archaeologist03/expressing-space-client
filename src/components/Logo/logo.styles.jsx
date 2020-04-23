@@ -6,7 +6,6 @@ export const LogoContainer = styled(Link)`
   position: fixed;
   left: 1%;
   top: 2%;
-  z-index: 5;
 `;
 
 export const LogoImage = styled.picture`

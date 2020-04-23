@@ -12,7 +12,9 @@ const User = () => {
       </ImageContainer>
       <NameContainer>
         <h3>Loktar</h3>
+        <hr />
         <p className='percentage'>77%</p>
+        <hr />
       </NameContainer>
     </UserContainer>
   );

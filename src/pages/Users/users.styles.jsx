@@ -26,8 +26,8 @@ export const UsersContainer = styled.section`
 export const UserContainer = styled.div`
   border: 1px solid yellow;
   border-radius: ${borderRadius};
-  width: 180px;
-  height: 160px;
+  width: 200px;
+  height: 180px;
   overflow: hidden;
   display: flex;
   justify-content: center;

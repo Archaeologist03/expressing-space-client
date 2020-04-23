@@ -14,13 +14,14 @@ export const StyledLink = styled(NavLink).attrs({ activeClassName })`
   border: 2px solid transparent;
   border-radius: 24px;
   min-width: 5rem;
-  padding: 0 3rem;
+  padding: 1rem 2rem;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
   color: ${mainText};
   transition: border 1s, color 0.5s;
+  margin: 0 1px;
 
   &.${activeClassName} {
     border: 2px solid rgba(105, 20, 27, 0.02);

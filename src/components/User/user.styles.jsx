@@ -5,6 +5,7 @@ import {
   borderRadius,
   imageBorder,
   blackText,
+  hrBorder,
 } from '../../styles/-variables';
 
 export const UserContainer = styled.div`
@@ -39,13 +40,17 @@ export const ImageContainer = styled.div`
 
 export const NameContainer = styled.div`
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   h3 {
     font-size: 1.5rem;
     color: ${blackText};
+  }
+
+  hr {
+    border: ${hrBorder};
   }
 
   .percentage {
