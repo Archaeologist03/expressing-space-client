@@ -14,6 +14,7 @@ export const UsersPageContainer = styled.div`
 export const UsersContainer = styled.section`
   max-width: 90%;
   min-height: 50vh;
+  min-width: 50vw;
   background-color: rgba(13, 13, 33, 0.97);
   border-radius: ${borderRadius};
   position: absolute;

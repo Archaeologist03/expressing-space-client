@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { mainText } from '../../styles/-variables';
 
 export const LandingContainer = styled.div`
-  border: 2px solid green;
   min-height: 100vh;
   min-width: 100vw;
   display: flex;

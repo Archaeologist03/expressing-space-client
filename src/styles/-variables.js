@@ -1,4 +1,4 @@
-export const backgroundDark = 'rgba(13, 13, 33, 0.9)';
+export const backgroundDark = 'rgba(13, 13, 33, 0.89)';
 export const elementsBackgroundRed = '#A75858';
 
 export const mainText = '#E16C6C';

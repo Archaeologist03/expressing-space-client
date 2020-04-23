@@ -1,10 +1,10 @@
 // =========== REACT IMPORTS ===============
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 // =========== PAGES IMPORTS ===============
 import Landing from './pages/Landing/Landing';
-// import Profile from './pages/Profile/Profile';
+import Profile from './pages/Profile/Profile';
 import Users from './pages/Users/Users';
 
 // =========== COMPONENT IMPORTS ===========
@@ -12,18 +12,17 @@ import Logo from './components/Logo/Logo';
 import Navigation from './components/Navigation/Navigation';
 
 const App = () => {
-  const isAuth = true; // should come from redux
-
   return (
-    <Router>
-      <div className='App'>
-        <Logo />
-        <Navigation />
-        {!isAuth ? <Landing /> : <Users />}
+    <div className='App'>
+      <Logo />
+      <Navigation />
 
-        {/* <Profile /> */}
-      </div>
-    </Router>
+      <Switch>
+        <Route exact path='/' component={Landing} />
+        <Route exact path='/profile' component={Profile} />
+        <Route exact path='/users' component={Users} />
+      </Switch>
+    </div>
   );
 };
 
