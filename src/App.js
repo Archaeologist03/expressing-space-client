@@ -1,28 +1,33 @@
 // =========== REACT IMPORTS ===============
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-
-// =========== PAGES IMPORTS ===============
-import Landing from './pages/Landing/Landing';
-import Profile from './pages/Profile/Profile';
-import Users from './pages/Users/Users';
+import React, { lazy, Suspense } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // =========== COMPONENT IMPORTS ===========
 import Logo from './components/Logo/Logo';
 import Navigation from './components/Navigation/Navigation';
+import Spinner from './components/Spinner/Spinner';
+
+// =========== PAGES IMPORTS ===============
+const LandingPage = lazy(() => import('./pages/Landing/Landing'));
+const ProfilePage = lazy(() => import('./pages/Profile/Profile'));
+const UsersPage = lazy(() => import('./pages/Users/Users'));
 
 const App = () => {
   return (
-    <div className='App'>
-      <Logo />
-      <Navigation />
+    <Router>
+      <div className='App'>
+        <Logo />
+        <Navigation />
 
-      <Switch>
-        <Route exact path='/' component={Landing} />
-        <Route exact path='/profile' component={Profile} />
-        <Route exact path='/users' component={Users} />
-      </Switch>
-    </div>
+        <Suspense fallback={<Spinner />}>
+          <Switch>
+            <Route exact path='/' component={LandingPage} />
+            <Route exact path='/profile' component={ProfilePage} />
+            <Route exact path='/users' component={UsersPage} />
+          </Switch>
+        </Suspense>
+      </div>
+    </Router>
   );
 };
 
