@@ -1,4 +1,7 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+
+import { loginUser } from '../../redux/user/user.actions';
 
 import NavItem from './NavItem/NavItem';
 
@@ -11,7 +14,21 @@ import {
 
 // COMPONENT LOGIC
 const Navigation = () => {
-  const isAuth = true; // should come from redux
+  const dispatch = useDispatch();
+
+  // testing redux
+  const tryoutSubmit = (e) => {
+    e.preventDefault();
+
+    let email = 'x@x.com';
+    let password = '12345';
+
+    const data = { email, password };
+
+    dispatch(loginUser(data));
+  };
+
+  const isAuth = false; // should come from redux
 
   let navbar = (
     <NavigationContainer>
@@ -19,7 +36,9 @@ const Navigation = () => {
         <StyledNav>
           <NavItem linkTo='/login'>Login</NavItem>
           <NavItem linkTo='/register'>Register</NavItem>
-          <NavItem linkTo='/tryout'>Tryout</NavItem>
+          <NavItem onSubmit={tryoutSubmit} linkTo='/tryout'>
+            Tryout
+          </NavItem>
         </StyledNav>
       </RegularNavContainer>
     </NavigationContainer>
