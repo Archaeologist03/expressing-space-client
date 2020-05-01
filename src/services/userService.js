@@ -6,10 +6,8 @@ export const loginUserService = async (request) => {
   try {
     const response = await axios.post(LOGIN_API_ENDPOINT, request.payload);
 
-    console.log(response, 333);
-
-    return await response.json();
+    return response;
   } catch (err) {
-    console.log(err);
+    console.log(err, 'error from service - login');
   }
 };
