@@ -5,12 +5,11 @@ import UserTypes from './user.types';
 
 export function* loginSaga(payload) {
   try {
-    const { data } = yield call(loginUserService, payload);
-    console.log(data);
+    const data = yield call(loginUserService, payload);
 
-    yield [put({ type: UserTypes.LOGIN_SUCCESS, data })];
+    yield put({ type: UserTypes.LOGIN_SUCCESS, payload: data });
   } catch (err) {
-    yield put({ type: UserTypes.LOGIN_FAIL, err });
+    yield put({ type: UserTypes.LOGIN_FAIL, payload: err });
   }
 }
 

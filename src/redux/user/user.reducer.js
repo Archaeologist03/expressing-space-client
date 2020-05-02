@@ -8,16 +8,16 @@ const INITIAL_STATE = {
 const userReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case UserTypes.LOGIN_SUCCESS:
-      console.log(action.payload, 121);
-
       return {
         ...state,
         currentUser: action.payload,
         error: null,
       };
     case UserTypes.LOGIN_FAIL:
-      console.log(action.payload, 33);
-      return state;
+      return {
+        ...state,
+        error: action.payload,
+      };
     default:
       return state;
   }
