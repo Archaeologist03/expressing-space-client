@@ -10,6 +10,7 @@ import Spinner from './components/Spinner/Spinner';
 const LandingPage = lazy(() => import('./pages/Landing/Landing'));
 const ProfilePage = lazy(() => import('./pages/Profile/Profile'));
 const UsersPage = lazy(() => import('./pages/Users/Users'));
+const AuthPage = lazy(() => import('./pages/Auth/Auth'));
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
         <Suspense fallback={<Spinner />}>
           <Switch>
             <Route exact path='/' component={LandingPage} />
+
+            <Route exact path='/auth' component={AuthPage} />
+
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/users' component={UsersPage} />
           </Switch>
