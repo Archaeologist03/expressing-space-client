@@ -1,0 +1,2 @@
+Some very basic wireframes as point of reference for initial structure of pages.
+Designed in Figma. 

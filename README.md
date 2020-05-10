@@ -55,3 +55,15 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2020 [Ilija](https://github.com/Archaeologist03).<br />
 This project is [MIT](https://github.com/Archaeologist03/expressing-space-api/blob/master/CODE_OF_CONDUCT.md) licensed.
+
+<hr/>
+
+## Wireframes - basic guidelines of initial structure
+
+<img src="./ideas/wireframes/Landing-page.png" width="500" alt="Landing page" />
+
+<img src="./ideas/wireframes/Profile-page.png" width="500" alt="Profile page" />
+
+<img src="./ideas/wireframes/Explore-Users-page.png" width="500" alt="Explore Users page" />
+
+Designed in [Figma](https://www.figma.com/)
