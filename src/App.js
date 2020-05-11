@@ -5,12 +5,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // =========== COMPONENT IMPORTS ===========
 import Header from './components/Header/Header';
 import Spinner from './components/Spinner/Spinner';
+import AuthForm from './components/AuthForm/AuthForm';
 
 // =========== PAGES IMPORTS ===============
 const LandingPage = lazy(() => import('./pages/Landing/Landing'));
 const ProfilePage = lazy(() => import('./pages/Profile/Profile'));
 const UsersPage = lazy(() => import('./pages/Users/Users'));
-const AuthPage = lazy(() => import('./pages/Auth/Auth'));
+// const AuthPage = lazy(() => import('./pages/Auth/Auth'));
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={LandingPage} />
 
-            <Route exact path='/auth' component={AuthPage} />
+            <Route exact path='/login' component={AuthForm} />
 
             <Route exact path='/profile' component={ProfilePage} />
             <Route exact path='/users' component={UsersPage} />

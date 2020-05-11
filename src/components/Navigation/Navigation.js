@@ -35,7 +35,7 @@ const Navigation = () => {
       <RegularNavContainer>
         <StyledNav>
           <NavItem linkTo='/login'>Login</NavItem>
-          <NavItem linkTo='/signup'>Register</NavItem>
+          <NavItem linkTo='/signup'>Sign Up</NavItem>
           <NavItem onSubmit={tryoutSubmit} linkTo='/tryout'>
             Tryout
           </NavItem>
