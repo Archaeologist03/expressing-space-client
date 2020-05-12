@@ -66,4 +66,4 @@ This project is [MIT](https://github.com/Archaeologist03/expressing-space-api/bl
 
 <img src="./ideas/wireframes/Explore-Users-page.png" width="500" alt="Explore Users page" />
 
-Designed in [Figma](https://www.figma.com/)
+Designed with [Figma](https://www.figma.com/)
